@@ -1,0 +1,34 @@
+@import '_base-colours';
+@import '_main-nav-bar';
+
+$font-main: 'Victor Mono', monospace;
+
+
+html {
+  height: 100%;
+  // box-sizing: border-box; ?
+}
+
+body {
+  height: calc(100% - 15px);
+  background: #eaeaea; //$light-grey;
+  // border-top: 15px solid $dark-green;
+  border-top: 25px;
+  border-top-style: solid;
+  color: #282828; //$dark-grey;
+  font-family: $font-main;
+  //line-height: 1.3;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+    color: $dark-orange;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.flex_main {
+    flex: 1;
+}

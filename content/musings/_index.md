@@ -1,8 +1,6 @@
 +++
-render = true
-template = "section.html"
+title = "Musings"
+sort_by = "date"
+template = "musings.html"
+page_template = "musings-post.html"
 +++
-
-# Musings
-
-Such think. Much thought. Wow.
