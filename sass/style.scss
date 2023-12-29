@@ -6,16 +6,14 @@ $font-main: 'Victor Mono', monospace;
 
 html {
   height: 100%;
-  // box-sizing: border-box; ?
+  box-sizing: border-box;
 }
 
 body {
-  height: calc(100% - 15px);
-  background: #eaeaea; //$light-grey;
-  // border-top: 15px solid $dark-green;
-  border-top: 25px;
-  border-top-style: solid;
-  color: #282828; //$dark-grey;
+  height: calc(100% - 25px);
+  background: $light-grey;
+  border-top: 25px solid $dark-grey;
+  color: $dark-grey;
   font-family: $font-main;
   //line-height: 1.3;
   margin: 0;

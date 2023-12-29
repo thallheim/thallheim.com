@@ -1,17 +1,26 @@
 main-nav-bar {
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
     .button {
-        color: $med-dark-blue;
         background: $light-grey;
-        border: 1px;
+        color: $med-dark-blue;
+        border: 1px solid;
         margin: 0 0;
-        padding: 0.15em 0.25em;
-        border-style: solid;
-        border-radius: 5px;
+        padding: 0.25em 0.35em;
+
+        border-radius: 4.5px;
+        border-color: $med-dark-grey;
         font-weight: bold;
         box-shadow: 2.5px 2.5px 5px $dark-grey;
-        transition: background 1.5s ease-out;
-        & > :hover {
-            color: $dark-orange;
-        }
+        transition:
+            color 0.35s ease-in,
+            background 0.35s ease-in;
     }
+    .button:hover,
+    .button:focus {
+        color: $med-dark-yellow;
+        background: $med-grey;
+    }
+
 }
