@@ -3,6 +3,9 @@
 
 $font-main: 'Victor Mono', monospace;
 
+:root {
+    font-size: 14px;
+}
 
 html {
   height: 100%;
@@ -42,5 +45,5 @@ a {
     display: flex;
     flex-direction: column;
     padding: 0 1em 0 1em;
-    width: clamp(300px, 80%, 90%);
+    width: clamp(400px, 65%, 95%);
 }
