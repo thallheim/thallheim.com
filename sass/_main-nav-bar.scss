@@ -15,14 +15,14 @@ main-nav-bar {
         transition:
             color 0.1s ease-in,
             background 0.25s ease-in;
-    }
-    .button:hover,
-    .button:focus {
-        color: $med-dark-yellow;
-        background: $med-grey;
-        border-color: $med-grey;
-        font-weight: bolder;
-        text-decoration: none;
-    }
 
+        &:hover,
+        &:focus {
+            color: $med-dark-yellow;
+            background: $med-grey;
+            border-color: $med-grey;
+            font-weight: bolder;
+            text-decoration: none;
+        }
+    }
 }
