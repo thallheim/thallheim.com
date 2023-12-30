@@ -1,26 +1,30 @@
 main-nav-bar {
+    height: 2.5rem;
     display: flex;
     flex-direction: row;
+    align-items: center;
+
+    :not(:first-child) {
+        margin: 0 0 0 10px;
+    }
 
     .button {
-        border: 1px solid;
-        margin: 0 0;
-        padding: 0.25em 0.35em;
+        font-size: 1.25em;
+        padding: 0.5em 1em;
         border-radius: 4.5px;
-        border-color: $med-dark-grey;
-        background: $med-dark-grey;
-        color: $med-light-blue;
+        border: 0px;
+        background: $med-dark-blue;
+        color: $folly;
         font-weight: bold;
-        box-shadow: 2.5px 2.5px 5px $dark-grey;
+        box-shadow: 4px 4px 5px $dark-grey;
         transition:
             color 0.1s ease-in,
             background 0.25s ease-in;
 
         &:hover,
         &:focus {
-            color: $med-dark-yellow;
-            background: $med-grey;
-            border-color: $med-grey;
+            color: lighten($folly, 8%);
+            background: lighten(#1e2d24, 8%);
             font-weight: bolder;
             text-decoration: none;
         }

@@ -5,7 +5,12 @@
     <main class="flex_main">
       <div class="inner">
         {% include "navbar.html" %}
-        {% block content %} {% endblock content %}
+        <div class="header">
+          {% include "header.html"%}
+        </div>
+        <div class="inner-content">
+          {% block content %} {% endblock content %}
+        </div>
       </div>
     </main>
   </body>
