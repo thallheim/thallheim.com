@@ -1,5 +1,12 @@
 .header {
     display: flex;
     flex-direction: row;
-    height: 250px;
+    height: 350px;
+
+    .secondary {
+        margin-left: auto;
+        img {
+            width: clamp(150px, 350px, 350px);
+        }
+    }
 }

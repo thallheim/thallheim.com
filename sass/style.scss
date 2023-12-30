@@ -46,7 +46,7 @@ a {
 .inner {
     display: flex;
     flex-direction: column;
-    padding: 0 1em 0 1em;
+    padding: 1em 1em 0 1em;
     width: clamp(400px, 65%, 95%);
 
     &-content {
