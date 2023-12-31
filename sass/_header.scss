@@ -1,12 +1,38 @@
 .header {
     display: flex;
     flex-direction: row;
-    height: 350px;
+
+    .primary {
+        display: inline-flex;
+        align-items: center;
+    }
 
     .secondary {
+        display: inline-flex;
+        justify-content: end;
         margin-left: auto;
-        img {
-            width: clamp(150px, 350px, 350px);
+        #logo {
+            width: clamp(150px, 350px, 100%);
+        }
+    }
+}
+
+// < 500px
+@media (max-width: 500px) {
+    .header {
+        .primary {
+            display: block;
+            flex-direction: column;
+            background-color: #eae;
+        }
+    }
+}
+
+// > 40rem
+@media (min-width: 40rem) {
+    .header {
+        .primary {
+            display: flex;
         }
     }
 }
