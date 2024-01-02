@@ -7,7 +7,10 @@ main-nav-bar {
     }
 
     .button {
-        flex: 1;
+        display: inherit;
+        height: 2rem;
+        width: 4rem;
+        justify-content: center;
         font-size: 1.25rem;
         padding: 0.5em 1em;
         border-radius: 4.5px;
@@ -30,24 +33,21 @@ main-nav-bar {
     }
 }
 // < 600 px
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
     main-nav-bar {
         flex-direction: column;
-        background-color: #eae;
-        align-items: start;
+
         :not(:first-child) {
             margin: 0.5rem 0 0 0;
         }
-    
     }
 }
 
 // > 40rem
-@media only screen and (min-width: 40rem) {
-    .header {
-        .primary {
-            display: flex;
-        }
-    }
-}
-
+// @media only screen and (min-width: 40rem) {
+//     .header {
+//         .primary {
+//             display: flex;
+//         }
+//     }
+// }

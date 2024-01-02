@@ -1,18 +1,38 @@
+@import "globals";
+
 .header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    height: clamp(200px, 350px, 350px);
 
     .primary {
         display: inherit;
+        justify-content: center;
     }
 
     .secondary {
         display: inherit;
+        height: inherit;
         justify-content: end;
         margin-left: auto;
         #logo {
-            width: clamp(150px, 350px, 100%);
+            aspect-ratio: 1/1;
+            height: clamp(150px, 100%, 100%);
         }
+    }
+}
+
+@media only screen and (max-width: $breakpoint) {
+    .header {
+        height: max(200px);
+
+        .primary {
+            justify-content: flex-start;
+        }
+    }
+
+    #logo {
+        // $limits: clamp(150, 200px, 200px);
     }
 }
