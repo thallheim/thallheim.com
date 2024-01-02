@@ -13,11 +13,16 @@ $light-green: lighten($green, 25%);
 $med-light-green: lighten($green, 15%);
 
 $orange: #F1592A;
-$dark-orange: darken($orange,  25%);
+$dark-orange: darken($orange, 25%);
+$med-dark-orange: darken($orange, 15%);
 $light-orange: lighten($orange, 25%);
+$med-light-orange: lighten($orange, 15%);
 
 $violet: #8661C1;
 $dark-violet: darken($violet, 25%);
+$med-dark-violet: darken($violet, 15%);
+$light-violet: lighten($violet, 25%);
+$med-light-violet: lighten($violet, 15%);
 
 $yellow: #FFB100;
 $dark-yellow: darken($yellow, 25%);
@@ -30,5 +35,5 @@ $med-grey: #6D6E71;
 $med-dark-grey: #2e2e2e;
 $light-grey: #D1D2D4;
 
-$black: #000;
+$black: #000000;
 $white: #fff;

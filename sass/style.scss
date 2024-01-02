@@ -2,8 +2,7 @@
 @import "base-colours";
 @import "main-nav-bar";
 @import "header";
-
-
+@import "musings-post";
 
 :root {
     font-size: 14px;
@@ -20,7 +19,6 @@ body {
   background: #fff;
   color: $dark-grey;
   font-family: $font-main;
-  //line-height: 1.3;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -28,7 +26,6 @@ body {
 
 .flex_main {
     display: flex;
-    flex: 1;
     justify-content: center;
 }
 
@@ -48,7 +45,6 @@ a {
     display: flex;
     flex-direction: column;
     padding-top: 1.5rem;
-
     width: clamp(550px, 95%, 800px);
 
     &-content {

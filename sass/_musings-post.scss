@@ -1,3 +1,24 @@
+@import "globals"
+@import "base-colours"
+
+.page-title {
+    font-weight: bold;
+    text-decoration: underline;
+    color: $orange;
+    text-decoration-color: $dark-green;
+}
+
 .post-subtitle {
-    
+    color: $med-light-green;
+}
+
+hr {
+    width: max(250px, 75%);
+    color: $dark-green;
+}
+
+h2, h3, h4, h5, h6 {
+    @extend .page-title;
+    text-decoration: none;
+    color: $light-orange;
 }
