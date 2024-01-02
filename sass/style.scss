@@ -1,6 +1,6 @@
-@import '_base-colours';
-@import '_main-nav-bar';
-@import '_header'
+@import "base-colours";
+@import "main-nav-bar";
+@import "header";
 
 $font-main: 'Victor Mono', monospace;
 
@@ -48,13 +48,14 @@ a {
     flex-direction: column;
     padding-top: 1.5rem;
 
-    width: clamp(400px, 95%, 1000px);
+    width: clamp(550px, 95%, 800px);
 
     &-content {
         margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
         padding: 0.75rem;
         background: #1e2d24;
         color: darken($light-grey, 5%);
-        border-radius: 5px;
+        border-radius: 9px;
     }
 }

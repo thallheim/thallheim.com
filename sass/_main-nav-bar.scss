@@ -1,7 +1,5 @@
 main-nav-bar {
-    height: 2.5rem;
     display: flex;
-    flex-direction: row;
     align-items: center;
 
     :not(:first-child) {
@@ -9,24 +7,47 @@ main-nav-bar {
     }
 
     .button {
+        flex: 1;
         font-size: 1.25rem;
         padding: 0.5em 1em;
         border-radius: 4.5px;
         border: 0px;
         background: $med-dark-blue;
-        color: $folly;
+        color: $orange;
         font-weight: bold;
-        box-shadow: 4px 4px 5px $dark-grey;
+        box-shadow: 5px 5px 7px $dark-grey;
         transition:
             color 0.1s ease-in,
             background 0.25s ease-in;
 
         &:hover,
         &:focus {
-            color: lighten($folly, 8%);
+            color: lighten($orange, 12%);
             background: lighten(#1e2d24, 8%);
             font-weight: bolder;
             text-decoration: none;
         }
     }
 }
+// < 600 px
+@media only screen and (max-width: 600px) {
+    main-nav-bar {
+        flex-direction: column;
+        background-color: #eae;
+        align-items: start;
+        :not(:first-child) {
+            margin: 0.5rem 0 0 0;
+        }
+    
+    }
+}
+
+// > 40rem
+@media only screen and (min-width: 40rem) {
+    .header {
+        .primary {
+            display: flex;
+        }
+    }
+}
+

@@ -1,38 +1,18 @@
 .header {
     display: flex;
     flex-direction: row;
+    align-items: center;
 
     .primary {
-        display: inline-flex;
-        align-items: center;
+        display: inherit;
     }
 
     .secondary {
-        display: inline-flex;
+        display: inherit;
         justify-content: end;
         margin-left: auto;
         #logo {
             width: clamp(150px, 350px, 100%);
-        }
-    }
-}
-
-// < 500px
-@media (max-width: 500px) {
-    .header {
-        .primary {
-            display: block;
-            flex-direction: column;
-            background-color: #eae;
-        }
-    }
-}
-
-// > 40rem
-@media (min-width: 40rem) {
-    .header {
-        .primary {
-            display: flex;
         }
     }
 }
