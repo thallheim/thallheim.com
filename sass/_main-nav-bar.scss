@@ -15,24 +15,24 @@ main-nav-bar {
         padding: 0.5em 1em;
         border-radius: 4.5px;
         border: 0px;
-        background: $med-dark-blue;
+        background: $dark-grey;
         color: $orange;
         font-weight: bold;
         box-shadow: 5px 5px 7px $dark-grey;
         transition:
-            color 0.1s ease-in,
-            background 0.25s ease-in;
+            color 0.2s ease-in,
+            background 0.2s ease-in;
 
         &:hover,
         &:focus {
-            color: lighten($orange, 12%);
+            color: $med-light-orange;
             background: lighten(#1e2d24, 8%);
             font-weight: bolder;
             text-decoration: none;
         }
     }
 }
-// < 600 px
+// < 650 px
 @media only screen and (max-width: 650px) {
     main-nav-bar {
         flex-direction: column;
@@ -42,12 +42,3 @@ main-nav-bar {
         }
     }
 }
-
-// > 40rem
-// @media only screen and (min-width: 40rem) {
-//     .header {
-//         .primary {
-//             display: flex;
-//         }
-//     }
-// }
