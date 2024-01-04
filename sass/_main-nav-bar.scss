@@ -18,6 +18,7 @@ main-nav-bar {
         background: $dark-green;
         color: $orange;
         font-weight: bold;
+        text-transform: uppercase;
         box-shadow: 0px 3px 5px $dark-grey;
         transition:
             color 1s ease-in, text-decoration 0.5s linear;

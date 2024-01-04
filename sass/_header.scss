@@ -47,11 +47,11 @@
 @media only screen and (max-width: $breakpoint) {
     .header {
         height: max(200px);
-        transition: 0.25s ease-in-out;
+        transition: 0.25s ease;
 
         .primary {
             justify-content: flex-start;
-            transition: 0.5s ease-out;
+            transition: 0.5s ease;
         }
     }
 }
