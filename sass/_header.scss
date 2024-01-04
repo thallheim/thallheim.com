@@ -5,18 +5,34 @@
     flex-direction: row;
     align-items: center;
     height: 350px;
-    // background-image: url("img/header-bg.jpg");
-    // background-size: contain;
-    // background-repeat: no-repeat;
-    // background-position: center;
+    position: relative;
+    border-radius: 10px;
+    padding: 10px;
+
+    .bg-img {
+        border-radius: 10px;
+        position: absolute;
+        // set element edges to edges of container
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: url("img/header-bg.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 0.5;
+        filter: blur(3px);
+        -webkit-filter: blur(3px);
+    }
 
     .primary {
         display: inherit;
         justify-content: center;
+        z-index: 1;
     }
 
     .secondary {
-        display: inherit;
+        @extend .primary;
         height: inherit;
         justify-content: end;
         margin-left: auto;
@@ -34,7 +50,7 @@
 
         .primary {
             justify-content: flex-start;
-            transition: 0.5s ease-in;
+            transition: 0.5s ease-out;
         }
     }
 }
