@@ -23,8 +23,9 @@ jobs:
         uses: dtolnay/rust-toolchain@stable
 
       - name: Install Zola
-        run: |
-          cargo install zola || echo "[INFO] Zola installed: YES"
+        uses: taiki-e/install-action@v2
+        with:
+          tool: zola
 
       - name: Set up Git
         run: |
