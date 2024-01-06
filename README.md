@@ -1,13 +1,5 @@
 # thallheim.com
 
-Henlo.
+Henlo :)
 
-:)
-
----
-
-Hmmmm.
-
-```quote
-What now?
-```
+This is the source for https://thallheim.com, in all its (lack of) glory.
