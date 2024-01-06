@@ -37,8 +37,8 @@ a {
 
     &:focus,
     &:hover {
-        color: lighten($light-blue, 5%);
-        transition: 0.2s ease-in;
+        color: lighten($light-blue, 15%);
+        transition: 0.25s ease-in;
     }
 }
 
