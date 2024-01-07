@@ -14,4 +14,4 @@ lives on [Cloudflare](https://cloudflare.com) on one of their
 # TODOs
 
 - [ ] Update colours (esp. post headings and link-hover)
-- [ ] ???
+- [ ] Think up and implement a three-card layout for the index
