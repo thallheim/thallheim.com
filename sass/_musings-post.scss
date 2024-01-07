@@ -1,15 +1,8 @@
 @import "globals/globals"
 @import "globals/base-colours"
 
-.page-title {
-    font-weight: bold;
-    text-decoration: underline;
-    color: $orange;
-    text-decoration-color: $med-dark-green;
-}
-
 .post-subtitle {
-    color: $med-light-green;
+    color: $med-dark-green;
 }
 
 hr {
@@ -18,7 +11,8 @@ hr {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    @extend .page-title;
-    text-decoration: none;
-    color: $med-light-blue;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: $violet;
+    color: $light-indigo;
 }

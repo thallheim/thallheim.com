@@ -31,13 +31,13 @@ body {
 }
 
 a {
-    color: $light-blue;
+    color: $light-indigo;
     font-weight: bold;
     text-decoration: none;
 
     &:focus,
     &:hover {
-        color: lighten($light-blue, 15%);
+        color: lighten($light-indigo, 15%);
         transition: 0.25s ease-in;
     }
 }
@@ -55,6 +55,13 @@ a {
         background: $dark-green;
         color: darken($light-grey, 5%);
         border-radius: 9px;
+
+        .page-title {
+            color: $orange;
+            text-decoration: underline;
+            text-decoration-color: $med-dark-green;
+            // text-decoration-color: $dark-orange;
+        }
     }
 }
 

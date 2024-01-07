@@ -17,8 +17,8 @@ lives on [Cloudflare](https://cloudflare.com) as one of their
 - [ ] Roll a small one or use existing?
 - [ ] Figure out proper deploy hooks
 
-### General/misc.
+## General/misc.
 
-- [ ] Update colours (esp. post headings and link-hover)
+- [/] Update colours (esp. post headings and link-hover)
+  - [ ] Rework colour vars in prep for theming
 - [ ] Think up and implement a three-card layout for the index
-
