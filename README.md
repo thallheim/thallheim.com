@@ -5,9 +5,9 @@ Henlo :)
 This is the source for https://thallheim.com in all its (lack of)
 glory.
 
-It's built with the (https://getzola.org)[Zola] SSG, and currently
-lives on (https://cloudflare.com)[Cloudflare] on one of their
-(https://developers.cloudflare.com/pages/)[Pages]
+It's built with the [Zola](https://getzola.org) SSG, and currently
+lives on [Cloudflare](https://cloudflare.com) on one of their
+[Pages](https://developers.cloudflare.com/pages/)
 
 ---
 
