@@ -1,13 +1,15 @@
 {% extends "base.html" %}
+{% import "macros/button.html" as macros %}
 
 {% block content %}
 
 <h1 class="page-title">Henlo, worldo</h1>
 
+It wörks! Huzzah! \o/
 
+<h1>Macro check time</h1>
 
-It wörks!
-
+{{ macros::createButton(buttonId="testButton", buttonText="Oi!") }}
 
 <h3>TODO:</h3>
 <ul>
